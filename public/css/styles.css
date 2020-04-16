@@ -1,0 +1,230 @@
+/*----- LOGIN -----*/
+
+.log img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login .form-group label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.login .form-group input[type='email'],
+.login .form-group input[type='password']{
+    width: 100%;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 2px 8px;
+    height: 38px;
+    line-height: 25px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+/*----- NAVBAR (Navegador - Barra Superior) -----*/
+
+.nav-principal {
+    background: #2E3D54;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 4px 0;
+}
+
+.nav-principal img{
+    width: 95px;
+    height: 38px;
+    padding-left: 5px;
+} 
+
+.nav-principal .buscar form input[type="text"] {
+    width: 100%;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    font-size: 12px;
+    padding: 2px 8px;
+    height: 38px;
+    line-height: 25px;
+    border-radius: 3px 0 0 3px;
+}
+
+.nav-principal .buscar form button {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    height: 38px;
+    line-height: 25px;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+}
+
+.nav-principal .buscar form button:hover {
+    background: #3D597B;
+    color: #ffffff;
+}
+
+.nav-principal .form-check-label{
+    color: #ffffff;    
+    font-size: 13px;
+}
+
+.nav-principal .ayuda button {
+    background: #2E3D54;
+    color: #ffffff;
+    border: none;
+    padding: 0 10px;
+    height: 38px;
+    line-height: 25px;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+}
+
+.nav-principal .ayuda button:hover {
+    background: #3D597B;
+    color: #000000;
+}
+
+.nav-principal .ayuda img {
+    height: 30px;
+    width: 45px;
+    padding: 0 6px;
+}
+
+nav .collapsed {
+    float: right;
+}
+
+/*----- SETTING CARRERAS - Nav/Forms -----*/
+nav .nav-tabs{
+    background: #F8F9FB;
+    color: #000000;
+}
+
+.tab-content .tab-pane a,
+.table-hover a {
+    color: #ffffff;
+}
+
+/*----- SIDEBAR (Barra Lateral) -----*/
+.sidebar {
+    background: #F8F9FB;
+    color: #2E3D54;
+    min-width: 220px;
+    min-height: 100px;
+    padding: 0;
+}
+
+.sidebar a {
+    color: #2E3D54;
+}
+
+.sidebar .user {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+.sidebar .user img {
+    display: block;
+    margin: auto;
+    width: 60px; 
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.sidebar .menu {
+    padding-top: 10px;
+}
+
+.sidebar .menu a,
+.sidebar .menu .btn-group a, 
+.sidebar .menu .btn-group .btn,
+.sidebar .menu-config a,
+.sidebar .menu-config .btn-group .btn {
+    display: block;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,255,255,.1); 
+}
+
+.sidebar .menu a:hover, 
+.sidebar .menu .btn-group a:hover,
+.sidebar .menu .btn-group .btn:hover,
+.sidebar .menu-config a:hover,
+.sidebar .menu-config .btn-group .btn:hover {
+    background: #18BB9C;
+    text-decoration: none;
+}
+
+.sidebar .menu a i, 
+.sidebar .menu .btn-group a i, 
+.sidebar .menu .btn-group .btn i,
+.sidebar .menu-config a i,
+.sidebar .menu-config .btn-group .btn i {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.sidebar .menu-config{
+    padding-top: 70px;
+}
+
+.sidebar .menu .btn-group .btn,
+.sidebar .menu-config .btn-group .btn{
+    width: 100%;
+}
+
+
+/* ----- FOOTER ------ */
+.footer {
+    text-align: center;
+    background: #2E3D54;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+/*----- MAIN GENERAL PARA TODO EL CONTENIDO CENTRAL -----*/
+
+.main {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/*----- CARD CARRERAS -----*/
+
+main .col {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+.main .card {
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    padding: 30px 0;
+}
+
+.main .card img {
+    height: 90px;
+    width: 300px;
+}
+
+/*----- FORMS -----*/
+
+.main form {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-left: 40px;
+}
